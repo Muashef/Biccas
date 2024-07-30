@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../assets/svg/Biccas.svg';
-import Hero from '../assets/svg/hero_img.svg';
 
 const links = [
     {
