@@ -1,0 +1,43 @@
+import React from 'react'
+import Pub from '../assets/svg/pub.svg';
+import Pie from '../assets/svg/pie.svg';
+import Eng from '../assets/svg/eng.svg';
+
+const Support = () => {
+  return (
+    <div className='w-full h-full px-14 py-8 bg-[#F9F8FE]'>
+        <div className='flex flex-col lg:flex-row max-w-[80vw] gap-4 lg:max-w-7xl mx-auto'>
+            <div className='w-[50%] flex flex-col'>
+                <h1 className='text-[#191A15] text-[3.125rem] font-semibold leading-[3.781875rem]'>How we support our partner all over the world</h1>
+                <p className='text-[#A6A6A6] text-base font-medium mt-8'>SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software</p>
+            </div>
+
+            <div className='flex flex-col w-[40%]'>
+                <div className='flex items-start mt-4'>
+                    <img src={Pub} alt="Publish" />
+                    <div>
+                        <h2 className='text-[#191A15] font-bold text-[1.75rem]'>Publishing</h2>
+                        <p className='text-[#A6A6A6] text-lg font-medium mt-2'>Plan, collaborate, and publishing your contetn that drivees meaningful engagement and growth for your brand</p>
+                    </div>
+                </div>
+                <div className='flex items-start mt-4'>
+                    <img src={Pie} alt="Analytics" />
+                    <div>
+                        <h2 className='text-[#191A15] font-bold text-[1.75rem]'>Analytics</h2>
+                        <p className='text-[#A6A6A6] text-lg font-medium mt-2'>Analyze your performance and create goegeous report</p>
+                    </div>
+                </div>
+                <div className='flex items-start mt-4'>
+                    <img src={Eng} alt="Publish" />
+                    <div>
+                        <h2 className='text-[#191A15] font-bold text-[1.75rem]'>Engagments</h2>
+                        <p className='text-[#A6A6A6] text-lg font-medium mt-2'>Quiuckly navigate you anda engage with your adience</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Support
