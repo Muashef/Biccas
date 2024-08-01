@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Team from './components/Team'
 import Support from './components/Support'
+import Features from './components/Features'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
      <Hero />
      <Team />
      <Support />
+     <Features />
     </>
   )
 }
