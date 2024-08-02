@@ -46,7 +46,7 @@ const Support = () => {
                     <img src={Eng} alt="Publish" />
                     <div>
                         <h2 className='text-[#191A15] font-bold text-[1.75rem]'>Engagments</h2>
-                        <p className='text-[#A6A6A6] text-lg font-medium mt-2'>Quiuckly navigate you anda engage with your adience</p>
+                        <p className='text-[#A6A6A6] text-lg font-medium mt-2'>Quickly navigate and engage with your audience</p>
                     </div>
                 </div> 
             </div>
