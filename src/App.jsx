@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Team from './components/Team'
 import Support from './components/Support'
 import Features from './components/Features'
+import Metrics from './components/Metrics'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
      <Team />
      <Support />
      <Features />
+     <Metrics />
     </>
   )
 }
