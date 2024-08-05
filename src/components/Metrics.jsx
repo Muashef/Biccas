@@ -10,10 +10,10 @@ const Metrics = () => {
             id: 1,
             image: Collab,
             quote: "Collaborate Teams",
-            text: "Here you can handle projects together with team virtually"
+            text: "Here you can handle projects together with team virtually hjfjdjj jdjdkkd"
         },
         {
-            id: 3,
+            id: 2,
             image: Cloud,
             quote: "Cloud Storage",
             text: "No nedd to worry about storage because we provide storage up to 2 TB"
@@ -25,8 +25,9 @@ const Metrics = () => {
             text: "We always provide useful informatin to make it easier for you every day"
         }
     ]
+
   return (
-    <div className='w-full h-full px-14 py-6'>
+    <div className='w-full h-full px-14 py-20 bg-[#FFD6D6]'>
         <div className='flex flex-col lg:flex-row gap-10'>
             {tools.map((item) => (
                 <div key={item.id}>

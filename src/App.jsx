@@ -6,6 +6,7 @@ import Team from './components/Team'
 import Support from './components/Support'
 import Features from './components/Features'
 import Metrics from './components/Metrics'
+import Benefit from './components/Benefit'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
      <Support />
      <Features />
      <Metrics />
+     <Benefit />
     </>
   )
 }
