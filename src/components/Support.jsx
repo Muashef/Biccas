@@ -12,7 +12,6 @@ const Support = () => {
             <div className='w-[50%] flex flex-col'>
                 <h1 className='text-[#191A15] text-[3.125rem] font-semibold leading-[3.781875rem]'>How we support our partner all over the world</h1>
                 <p className='text-[#A6A6A6] text-base font-medium mt-8'>SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software</p>
-
                 <div className='flex flex-row gap-24 mt-14'>
                     <div>
                         <img src={Star} alt="Stars" />
@@ -26,7 +25,6 @@ const Support = () => {
                     </div>
                 </div>
             </div>
-
             <div className='flex flex-col w-[40%]'>
                 <div className='flex items-start mt-4'>
                     <img src={Pub} alt="Publish" />

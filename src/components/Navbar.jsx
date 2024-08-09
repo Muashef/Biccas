@@ -37,7 +37,6 @@ const Navbar = () => {
                 <a href="/">
                     <img src={Logo} className='w-[75.60px] lg:w-full' alt="Biccas Logo" />
                 </a>
-
                 <div className='hidden lg:flex items-center gap-4 lg:gap-[2rem]'>
                     {links.map((links) => (
                         <a href={links.url} key={links.id} className='text-[#A6A6A6] text-base font-medium'>
@@ -45,16 +44,13 @@ const Navbar = () => {
                         </a>
                     ))}
                 </div>
-
                 <div className='flex items-center gap-6'>
                     <button className='text-base text-[#A6A6A6] font-medium'>Login</button>
                     <button className='bg-[#54BD95] text-white text-base font-medium py-2 px-2 w-[fit-content] rounded-md border border-[#54BD95]'>
                         Sign Up
                     </button>
                 </div>
-
             </div>
-
         </nav>
     </div>
   )
