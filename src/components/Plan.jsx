@@ -72,7 +72,36 @@ const Plan = () => {
                   <button className='bg-[#54BD95] py-4 px-8 rounded-2xl shadow-lg text-white text-lg font-semibold mt-10'>Go to pro</button>
                 </div>
             </div>
-            <div>Business</div>
+            <div className='bg-white shadow-md rounded-2xl p-4 lg:p-7 w-full lg:w-[374px] h-[644px]'>
+                <h3 className='text-[30px] text-[#191A15] font-semibold'>Business</h3>
+                <p className='text-[#A6A6A6] text-lg font-medium'>Unveil new superpowers and join the Design Leaque</p>
+                <p className='text-[#A6A6A6] text-lg font-medium'>$</p>
+                <p className='text-[#191A15] text-[50px] font-semibold'>16</p>
+                <div className='w-full flex flex-col space-y-5 mt-6 bg-[#F9FAFB] p-5 rounded-lg'>
+                  <div className='flex items-center gap-3'>
+                    <img src={Checks} className='w-[26px]' alt="Checks" />
+                    <p className='text-[#191A15] text-lg font-medium'>All the features of pro plan</p>
+                  </div>
+                  <div className='flex items-center gap-3'>
+                    <img src={Checks} className='w-[26px]' alt="Checks" />
+                    <p className='text-[#191A15] text-lg font-medium'>Account success Manager</p>
+                  </div>
+                  <div className='flex items-center gap-3'>
+                    <img src={Checks} className='w-[26px]' alt="Checks" />
+                    <p className='text-[#191A15] text-lg font-medium'>Single Sign-On (SSO)</p>
+                  </div>
+                  <div className='flex items-center gap-3'>
+                    <img src={Checks} className='w-[26px]' alt="Checks" />
+                    <p className='text-[#191A15] text-lg font-medium'>Co-conception program</p>
+                  </div>
+                  <div className='flex items-center gap-3'>
+                    <img src={Checks} className='w-[26px]' alt="Checks" />
+                    <p className='text-[#191A15] text-lg font-medium'>Collaboration-Soon</p>
+                  </div>
+
+                  <button className='bg-white py-4 px-8 rounded-2xl shadow-lg text-[#54BD95] text-lg font-semibold mt-10'>Goto Business</button>
+                </div>
+            </div>
         </div>
     </div>
   )
