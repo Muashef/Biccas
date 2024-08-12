@@ -8,6 +8,7 @@ import Features from './components/Features'
 import Metrics from './components/Metrics'
 import Benefit from './components/Benefit'
 import Plan from './components/Plan'
+import About from './components/About'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
      <Metrics />
      <Benefit />
      <Plan />
+     <About />
     </>
   )
 }
