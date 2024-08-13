@@ -4,7 +4,7 @@ import Checks from '../assets/svg/check.svg';
 
 const Benefit = () => {
   return (
-    <div className='w-full h-full px-14 py-6 bg-[#FFD6D6]'>
+    <div className='w-full h-full px-20 py-6 bg-[#FFD6D6]'>
         <div className='flex flex-col lg:flex-row max-w-[80vw] lg:max-w-7xl mx-auto'>
             <div>
                 <h1 className='text-[#191A15] font-extrabold text-[3.125rem]'>What Benifit Will You Get</h1>

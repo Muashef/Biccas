@@ -27,7 +27,7 @@ const Metrics = () => {
     ]
 
   return (
-    <div className='w-full h-full px-14 py-20 bg-[#FFD6D6]'>
+    <div className='w-full h-full px-20 py-20 bg-[#FFD6D6]'>
         <div className='flex flex-col lg:flex-row gap-10'>
             {tools.map((item) => (
                 <div key={item.id}>
