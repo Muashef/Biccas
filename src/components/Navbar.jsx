@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div>
         <nav className='w-full py-3 p-2 bg-[#FFD6D6]'>
-            <div className='flex items-center justify-between mx-auto px-4 lg:px-14 py-4'>
+            <div className='flex items-center justify-between mx-auto px-8 lg:px-20 py-4'>
                 <a href="/">
                     <img src={Logo} className='w-[75.60px] lg:w-full' alt="Biccas Logo" />
                 </a>

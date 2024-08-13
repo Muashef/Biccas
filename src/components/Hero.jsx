@@ -5,7 +5,7 @@ import line from '../assets/svg/line.svg';
 
 const Hero = () => {
   return (
-    <div className='w-full h-full px-4 lg:px-14 py-8 lg:py-20 bg-[#FFD6D6]'>
+    <div className='w-full h-full px-4 lg:px-20 py-8 lg:py-20 bg-[#FFD6D6]'>
         <div className='flex flex-col lg:flex-row gap-6 max-w-[80vw] lg:max-w-7xl w-full mx-auto relative'>
             <div className='w-full lg:w-[50%] flex flex-col'>
                 <h1 className='text-2xl lg:text-[5rem] text-[#191A15] font-extrabold lg:leading-[5.625rem]'>We’re here to Increase your Productivity</h1>

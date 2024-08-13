@@ -2,9 +2,9 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='w-full h-full px-14 py-12 bg-white'>
+    <div className='w-full h-full px-20 py-12 bg-white'>
         <div className='w-full flex flex-col lg:flex-row items-center justify-between gap-20'>
-            <div className='w-[30%]'>
+            <div className='w-[35%]'>
                 <h2 className='text-[#191A15] text-[3.125rem] leading-[3.781875rem] font-semibold'>Our Features you can get</h2>
             </div>
             <div className='w-[42%]'>
