@@ -5,6 +5,7 @@ import FaceTwo from '../assets/svg/face_two.svg';
 import FaceThree from '../assets/svg/face3.svg';
 import FaceFour from '../assets/svg/face4.svg';
 import PlayBtn from '../assets/svg/play_btn.svg';
+import Cynd from '../assets/svg/cynd.svg';
 
 const About = () => {
     const abouts = [
@@ -31,7 +32,7 @@ const About = () => {
     ]
 
   return (
-    <div className='w-full h-full px-20 py-10 bg-[#161C28]'>
+    <div className='w-full h-full px-20 py-20 bg-[#161C28]'>
         <div className='flex flex-col lg:flex-row justify-between gap-4'>
             <div className='w-[48%]'>
                 <h2 className='text-[3.125rem] text-white font-semibold'>People are Saying About DoWhith</h2>
@@ -48,7 +49,12 @@ const About = () => {
                     ))}
                 </div>
             </div>
-            <div>Get Started</div>
+            <div className='bg-[#222938] px-64 rounded-3xl flex flex-col items-center mx-auto'>
+                <div className=''>
+                    <img src={Cynd} alt="cylinder" />
+                    <h2 className='text-[30px] font-medium text-white whitespace-nowrap mt-3'>Get Started</h2>
+                </div>
+            </div>
         </div>
     </div>
   )
