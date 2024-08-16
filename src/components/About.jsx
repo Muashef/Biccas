@@ -33,7 +33,7 @@ const About = () => {
 
   return (
     <div className='w-full h-full px-20 py-20 bg-[#161C28]'>
-        <div className='flex flex-col lg:flex-row justify-between gap-4'>
+        <div className='flex flex-col lg:flex-row justify-between gap-20'>
             <div className='w-[48%]'>
                 <h2 className='text-[3.125rem] text-white font-semibold'>People are Saying About DoWhith</h2>
                 <p className='text-[#A6A6A6] font-medium text-lg mt-3'>Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
@@ -49,11 +49,38 @@ const About = () => {
                     ))}
                 </div>
             </div>
-            <div className='bg-[#222938] px-64 rounded-3xl flex flex-col items-center mx-auto'>
-                <div className=''>
+            <div className='bg-[#222938] w-[612px] py-14 rounded-3xl flex flex-col'>
+                <div className='mx-auto'>
                     <img src={Cynd} alt="cylinder" />
                     <h2 className='text-[30px] font-medium text-white whitespace-nowrap mt-3'>Get Started</h2>
                 </div>
+                <form className='w-full px-20 mt-6' action="">
+                    <div>
+                        <label className='text-white text-lg font-medium block' htmlFor="email">Email</label>
+                        <input 
+                          type="mail" 
+                          id="mail"
+                          name="mail"
+                          placeholder="Enter your email"
+                          className="block flex-1 border-1 bg-white py-2 pl-3 rounded-lg mt-3 w-full text-black placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6"
+                        />
+                    </div>
+                    <div className='mt-5'>
+                        <label className='text-white text-lg font-medium block' htmlFor="message">Message</label>
+                        <textarea 
+                         name="message" 
+                         id="message"
+                         placeholder="what do you have to say?"
+                         rows={3}
+                         className="block w-full rounded-md border-0 py-3 pl-3 mt-2 text-gray-900 shadow-sm resize-none placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6"
+                        />
+                    </div>
+                    <button className='w-full bg-[#54BD95] py-4 px-8 rounded-lg shadow-lg text-white text-base font-semibold mt-4'>Request Demo</button>
+                    <span className='flex flex-row items-end justify-end mt-2 text-sm text-white font-medium'>
+                    or
+                    <a href="#" className='pl-1'>Start Free Trial</a>
+                    </span>
+                </form>
             </div>
         </div>
     </div>
