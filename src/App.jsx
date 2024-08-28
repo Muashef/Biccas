@@ -9,6 +9,7 @@ import Metrics from './components/Metrics'
 import Benefit from './components/Benefit'
 import Plan from './components/Plan'
 import About from './components/About'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
      <Benefit />
      <Plan />
      <About />
+     <Footer />
     </>
   )
 }

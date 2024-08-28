@@ -49,20 +49,21 @@ const About = () => {
                     ))}
                 </div>
             </div>
-            <div className='bg-[#222938] w-[612px] py-14 rounded-3xl flex flex-col'>
+            <div className='bg-[#222938] w-[612px] py-8 rounded-3xl flex flex-col'>
                 <div className='mx-auto'>
-                    <img src={Cynd} alt="cylinder" />
+                    <img src={Cynd} className='mx-auto' alt="cylinder" />
                     <h2 className='text-[30px] font-medium text-white whitespace-nowrap mt-3'>Get Started</h2>
                 </div>
-                <form className='w-full px-20 mt-6' action="">
+                <form className='w-full px-20 mt-6'>
                     <div>
                         <label className='text-white text-lg font-medium block' htmlFor="email">Email</label>
                         <input 
                           type="mail" 
                           id="mail"
                           name="mail"
+                          required
                           placeholder="Enter your email"
-                          className="block flex-1 border-1 bg-white py-2 pl-3 rounded-lg mt-3 w-full text-black placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6"
+                          className="block flex-1 border-1 bg-white py-2.5 pl-3 rounded-lg mt-3 w-full text-black placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6"
                         />
                     </div>
                     <div className='mt-5'>
@@ -70,12 +71,13 @@ const About = () => {
                         <textarea 
                          name="message" 
                          id="message"
+                         required
                          placeholder="what do you have to say?"
-                         rows={3}
+                         rows={2.5}
                          className="block w-full rounded-md border-0 py-3 pl-3 mt-2 text-gray-900 shadow-sm resize-none placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6"
                         />
                     </div>
-                    <button className='w-full bg-[#54BD95] py-4 px-8 rounded-lg shadow-lg text-white text-base font-semibold mt-4'>Request Demo</button>
+                    <button className='w-full bg-[#54BD95] py-3.5 px-8 rounded-lg shadow-lg text-white text-base font-semibold mt-4'>Request Demo</button>
                     <span className='flex flex-row items-end justify-end mt-2 text-sm text-white font-medium'>
                     or
                     <a href="#" className='pl-1'>Start Free Trial</a>
