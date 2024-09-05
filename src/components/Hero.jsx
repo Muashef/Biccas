@@ -17,7 +17,7 @@ const Hero = () => {
                     <img src={ManImg} className='w-full' alt="" />
                 </div>
                 <div className='flex flex-row gap-4 lg:gap-8 mt-8 mx-auto lg:mx-0'>
-                    <button className='bg-[#54BD95] text-white text-lg font-medium py-3 px-3 w-[fit-content] rounded-full border border-[#54BD95]'>
+                    <button className='bg-[#54BD95] text-white text-lg font-medium py-3 px-6 w-[fit-content] rounded-full border border-[#54BD95]'>
                         Try free trial
                     </button>
                     <button className='flex items-center gap-3'>
