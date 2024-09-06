@@ -32,10 +32,10 @@ const About = () => {
     ]
 
   return (
-    <div className='w-full h-full px-20 py-20 bg-[#161C28]'>
+    <div className='w-full h-full px-8 lg:px-20 py-14 lg:py-20 bg-[#161C28]'>
         <div className='flex flex-col lg:flex-row justify-between gap-20'>
-            <div className='w-[48%]'>
-                <h2 className='text-[3.125rem] text-white font-semibold'>People are Saying About DoWhith</h2>
+            <div className='w-full lg:w-[48%]'>
+                <h2 className='text-[3.125rem] text-white font-semibold'>People are Saying About Us</h2>
                 <p className='text-[#A6A6A6] font-medium text-lg mt-3'>Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
                 <span >
                     <img className='mt-12' src={Quote} alt="" />
@@ -49,13 +49,13 @@ const About = () => {
                     ))}
                 </div>
             </div>
-            <div className='bg-[#222938] w-[612px] py-8 rounded-3xl flex flex-col'>
+            <div className='bg-[#222938] w-full lg:w-[612px] py-8 rounded-3xl flex flex-col'>
                 <div className='mx-auto'>
                     <img src={Cynd} className='mx-auto' alt="cylinder" />
                     <h2 className='text-[30px] font-medium text-white whitespace-nowrap mt-3'>Get Started</h2>
                 </div>
-                <form className='w-full px-20 mt-6'>
-                    <div>
+                <form className='w-full px-8 lg:px-20 mt-6'>
+                    <div className='w-full'>
                         <label className='text-white text-lg font-medium block' htmlFor="email">Email</label>
                         <input 
                           type="mail" 
@@ -78,7 +78,7 @@ const About = () => {
                         />
                     </div>
                     <button className='w-full bg-[#54BD95] py-3.5 px-8 rounded-lg shadow-lg text-white text-base font-semibold mt-4'>Request Demo</button>
-                    <span className='flex flex-row items-end justify-end mt-2 text-sm text-white font-medium'>
+                    <span className='flex flex-row items-center justify-center lg:items-end lg:justify-end mt-2 text-sm text-white font-medium'>
                     or
                     <a href="#" className='pl-1'>Start Free Trial</a>
                     </span>

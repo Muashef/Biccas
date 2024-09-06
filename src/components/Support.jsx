@@ -7,10 +7,10 @@ import Stars from '../assets/svg/four_stars.svg';
 
 const Support = () => {
   return (
-    <div className='w-full h-full px-8 lg:px-20 py-16 bg-[#F9F8FE]'>
+    <div className='w-full h-full px-8 lg:px-20 py-10 lg:py-16 bg-[#F9F8FE]'>
         <div className='flex flex-col lg:flex-row max-w-[80vw] gap-4 lg:max-w-7xl mx-auto'>
             <div className='w-full lg:w-[55%] flex flex-col'>
-                <h1 className='text-[#191A15] text-lg lg:text-[3.125rem] font-semibold lg:leading-[3.781875rem]'>How we support our partner all over the world</h1>
+                <h1 className='text-[#191A15] text-lg lg:text-[3.125rem] font-semibold lg:leading-[3.781875rem] text-center md:text-start'>How we support our partner all over the world</h1>
                 <p className='text-[#A6A6A6] text-base font-medium mt-8'>SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software</p>
                 <div className='flex flex-row gap-24 mt-14'>
                     <div>
@@ -25,7 +25,7 @@ const Support = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col w-full md:w-[40%]'>
                 <div className='flex items-start mt-4'>
                     <img src={Pub} alt="Publish" />
                     <div>
