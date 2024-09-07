@@ -1,14 +1,15 @@
 import React, {useState} from 'react'
 import FooterLogo from '../assets/svg/logo_footer.svg';
+import Arr from '../assets/svg/arr.svg'
 
 const Footer = () => {
    
   return (
     <div className='w-full h-full pt-14 lg:pt-20 px-8 lg:px-20 bg-[#161C28]'>
         <div className='flex flex-col md:flex-row justify-between '>
-            <div className='w-full lg:w-96'>
+            <div className='w-full lg:w-96 relative'>
               <img src={FooterLogo} alt="" />
-              <p className='text-[#A6A6A6] text-lg font-medium mt-8'>Get started noew try our product</p>
+              <p className='text-[#A6A6A6] text-lg font-medium mt-8'>Get started now try our product</p>
               <div className='mt-6'>
                 <input
                   type='text'
@@ -17,6 +18,10 @@ const Footer = () => {
                   required
                 />
               </div>
+              <div className='absolute top-10 transform -translate-y-1/2 right-1'>
+                <img src={Arr} alt="white-arrow" />
+              </div>
+              
             </div>
 
             <div className='flex flex-col md:flex-row gap-10 lg:gap-28 mt-14 lg:mt-0'> 

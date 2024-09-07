@@ -12,7 +12,7 @@ const Team = () => {
   return (
     <div className='w-full h-full px-8 lg:px-20 py-8 lg:py-6 lg:pb-24 bg-[#FFD6D6]'>
         <h1 className='text-[2.5rem] text-[#191A15] font-bold text-center'>More than 25,000 teams use Collabs</h1>
-        <div className='w-full flex flex-wrap items-center gap-14 mt-8 mx-auto'>
+        <div className='w-full grid grid-cols-2 lg:grid-cols-5 gap-14 mt-8 mx-auto'>
             {teams.map((items) => (
                 <img src={items} alt="" />
             ))}
