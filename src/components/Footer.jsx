@@ -13,12 +13,12 @@ const Footer = () => {
               <div className='mt-6'>
                 <input
                   type='text'
-                  class='w-full bg-transparent border-2 border-[#A6A6A6] text-white text-sm rounded-full block pl-4 p-3 outline-none'
+                  class='w-full bg-transparent border-2 border-[#A6A6A6] text-white text-sm rounded-full block pl-4 p-4 outline-none'
                   placeholder='Enter your email here'
                   required
                 />
               </div>
-              <div className='absolute top-10 transform -translate-y-1/2 right-1'>
+              <div className='absolute -bottom-4 lg:-bottom-2.5 transform -translate-y-1/2 right-1.5 cursor-pointer'>
                 <img src={Arr} alt="white-arrow" />
               </div>
               
