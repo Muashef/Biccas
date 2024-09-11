@@ -11,7 +11,7 @@ const Benefit = () => {
                 <div className='w-full flex flex-col space-y-8 mt-10'>
                   <div className='flex items-center gap-3'>
                     <img src={Checks} alt="Checks" />
-                    <p className='text-[#191A15] text-lg font-medium'>Free Consulting With Experet Saving Money</p>
+                    <p className='text-[#191A15] text-lg font-medium'>Free Consulting With Expert Saving Money</p>
                   </div>
                   <div className='flex items-center gap-3'>
                     <img src={Checks} alt="Checks" />

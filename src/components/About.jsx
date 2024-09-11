@@ -35,7 +35,7 @@ const About = () => {
     <div className='w-full h-full px-8 lg:px-20 py-14 lg:py-20 bg-[#161C28]'>
         <div className='flex flex-col lg:flex-row justify-between gap-20'>
             <div className='w-full lg:w-[48%]'>
-                <h2 className='text-[3.125rem] text-white font-semibold'>People are Saying About Us</h2>
+                <h2 className='text-[3.125rem] text-white font-semibold'>What People are Saying About Us</h2>
                 <p className='text-[#A6A6A6] font-medium text-lg mt-3'>Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
                 <span >
                     <img className='mt-12' src={Quote} alt="" />

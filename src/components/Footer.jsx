@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center justify-between mt-20 lg:mt-24 pb-6'>
+        <div className='flex flex-col md:flex-row items-center justify-between mt-20 lg:mt-24 pb-6 gap-5'>
             <h3 className='text-white text-lg font-medium'>
               © 2022 Biccas Inc. Copyright and rights reserved
             </h3>
