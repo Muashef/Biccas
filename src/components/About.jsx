@@ -42,7 +42,6 @@ const About = () => {
                 </span>
                 <p className='text-[#A6A6A6] font-medium text-lg mt-8'>I am very helped by this E-wallet application , my days are very easy to use this application and its very helpful in my life , even I can pay a short time 😍</p>
                 <p className='text-[#A6A6A6] font-medium text-lg mt-8'>_ Aria Zinanrio</p>
-
                 <div className='flex flex-row flex-wrap gap-6 mt-7'>
                     {abouts.map((item) => (
                         <img src={item.image} key={item.id} />

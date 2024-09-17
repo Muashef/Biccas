@@ -12,7 +12,7 @@ const Features = () => {
             </div>
             <div className='w-full lg:w-[28%]'>
                 <button className='bg-[#54BD95] text-white text-lg font-medium py-3 px-6 w-[fit-content] rounded-full border border-[#54BD95] '>
-                    Get Started
+                  Get Started
                 </button>
             </div>
         </div>

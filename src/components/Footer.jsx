@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import FooterLogo from '../assets/svg/logo_footer.svg';
 import Arr from '../assets/svg/arr.svg'
 
@@ -21,7 +21,6 @@ const Footer = () => {
               <div className='absolute -bottom-4 lg:-bottom-2.5 transform -translate-y-1/2 right-1.5 cursor-pointer'>
                 <img src={Arr} alt="white-arrow" />
               </div>
-              
             </div>
 
             <div className='flex flex-col md:flex-row gap-10 lg:gap-28 mt-14 lg:mt-0'> 
