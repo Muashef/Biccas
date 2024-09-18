@@ -14,8 +14,10 @@ const Plan = () => {
             <div className='bg-white shadow-md rounded-2xl p-4 lg:p-7 w-full lg:w-[374px] h-[644px]'>
                 <h3 className='text-[30px] text-[#191A15] font-semibold'>Free</h3>
                 <p className='text-[#A6A6A6] text-lg font-medium'>Have a go  and test your  superpowers</p>
-                <p className='text-[#A6A6A6] text-lg font-medium'>$</p>
-                <p className='text-[#191A15] text-[50px] font-semibold'>0</p>
+                <div className='flex justify-center gap-1 mt-4'>
+                  <p className='text-[#A6A6A6] text-lg font-medium'>$</p>
+                  <p className='text-[#191A15] text-[50px] font-semibold'>0</p>
+                </div>
                 <div className='w-full flex flex-col space-y-5 mt-6 bg-[#F9FAFB] p-5 rounded-lg'>
                   <div className='flex items-center gap-3'>
                     <img src={Checks} className='w-[26px]' alt="Checks" />
@@ -44,8 +46,10 @@ const Plan = () => {
             <div className='bg-[#54BD95] shadow-md rounded-2xl p-4 lg:p-7 w-full lg:w-[374px] h-[684px]'>
                 <h3 className='text-[1.875rem] text-white font-semibold'>Pro</h3>
                 <p className='text-white text-lg font-medium'>Experiment the power of infinite possibilities</p>
-                <p className='text-white text-lg font-medium'>$</p>
-                <p className='text-white text-[3.125rem] font-semibold'>8</p>
+                <div className='flex justify-center gap-1 mt-4'>
+                  <p className='text-white text-lg font-medium'>$</p>
+                  <p className='text-white text-[3.125rem] font-semibold'>8</p>
+                </div>
                 <button className='bg-[#85DAB9] py-2 px-2 rounded-lg text-white text-[14px]'>Save $50 a year</button>
                 <div className='w-full flex flex-col space-y-5 mt-6 bg-[#F9FAFB] p-5 rounded-lg'>
                   <div className='flex items-center gap-3'>
@@ -75,9 +79,11 @@ const Plan = () => {
             <div className='bg-white shadow-md rounded-2xl p-4 lg:p-7 w-full lg:w-[374px] h-[644px]'>
                 <h3 className='text-[30px] text-[#191A15] font-semibold'>Business</h3>
                 <p className='text-[#A6A6A6] text-lg font-medium'>Unveil new superpowers and join the Design Leaque</p>
-                <p className='text-[#A6A6A6] text-lg font-medium'>$</p>
-                <p className='text-[#191A15] text-[50px] font-semibold'>16</p>
-                <div className='w-full flex flex-col space-y-5 mt-6 bg-[#F9FAFB] p-5 rounded-lg'>
+                <div className='flex justify-center gap-1 mt-4'>
+                  <p className='text-[#A6A6A6] text-lg font-medium'>$</p>
+                  <p className='text-[#191A15] text-[50px] font-semibold'>16</p>
+                </div>
+                <div className='w-full flex flex-col space-y-5 mt-2 bg-[#F9FAFB] p-5 rounded-lg'>
                   <div className='flex items-center gap-3'>
                     <img src={Checks} className='w-[26px]' alt="Checks" />
                     <p className='text-[#191A15] text-lg font-medium'>All the features of pro plan</p>
